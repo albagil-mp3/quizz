@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Cielo con degradado simulado -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M0,0 L200,0 L200,200 L0,200 Z"/>
+
+    <!-- Sol grande y brillante -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M100,50m-35,0a35,35 0,1,1 70,0a35,35 0,1,1 -70,0"/>
+
+    <!-- Resplandor del sol -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M100,50m-25,0a25,25 0,1,1 50,0a25,25 0,1,1 -50,0"/>
+
+    <!-- Rayos largos del sol (8 rayos principales) -->
+    <!-- Rayo superior -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M98,10 L100,35 L102,10 Z"/>
+    <!-- Rayo inferior -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M98,90 L100,65 L102,90 Z"/>
+    <!-- Rayo izquierda -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M60,48 L85,50 L60,52 Z"/>
+    <!-- Rayo derecha -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M140,48 L115,50 L140,52 Z"/>
+    <!-- Rayo diagonal superior izquierda -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M68,20 L85,37 L70,40 Z"/>
+    <!-- Rayo diagonal superior derecha -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M132,20 L115,37 L130,40 Z"/>
+    <!-- Rayo diagonal inferior izquierda -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M68,80 L85,63 L70,60 Z"/>
+    <!-- Rayo diagonal inferior derecha -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M132,80 L115,63 L130,60 Z"/>
+
+    <!-- Nubes pequeñas -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,120m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,115m-15,0a15,15 0,1,1 30,0a15,15 0,1,1 -30,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,120m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0"/>
+
+    <!-- Texto o diseño decorativo opcional -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M160,140m-10,0a10,10 0,1,1 20,0a10,10 0,1,1 -20,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M172,135m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M185,140m-10,0a10,10 0,1,1 20,0a10,10 0,1,1 -20,0"/>
+</vector>
+

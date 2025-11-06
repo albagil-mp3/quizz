@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quizz</string>
+    <string name="question_counter">%1$d de %2$d</string>
+    <string name="answered_counter">✓ %1$d / %2$d</string>
+    <string name="incorrect_counter">✗ %1$d / %2$d</string>
+    <string name="correct_answer">¡Correcto! ✓</string>
+    <string name="incorrect_answer">Incorrecto ✗</string>
+    <string name="btn_true">VERDADERO</string>
+    <string name="btn_false">FALSO</string>
+    <string name="btn_next">SIGUIENTE ▶</string>
+    <string name="btn_previous">◀ ANTERIOR</string>
+</resources>
